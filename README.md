@@ -1,4 +1,4 @@
-# test-reaction-time.github.io
+# [test-reaction-time.github.io](https://test-reaction-time.github.io/)
 
 Promotional landing page project for [test-reactiontime.com](https://test-reactiontime.com/).
 
