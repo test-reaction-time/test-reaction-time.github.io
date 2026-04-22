@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# test-reaction-time.github.io
 
-## Getting Started
+Promotional landing page project for [test-reactiontime.com](https://test-reactiontime.com/).
 
-First, run the development server:
+The site is designed to explain why reaction speed matters and drive readers to
+take a reaction test through clear CTA sections.
+
+## Local Development
+
+Install dependencies and run locally:
 
 ```bash
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Landing Page Goals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Present reaction time as a practical performance metric.
+- Explain how to measure reflex speed in simple steps.
+- Guide users to `test-reactiontime.com` through multiple CTA placements.
+- Keep the page lightweight and static-export friendly for GitHub Pages.
 
-## Learn More
+## Promotion References
 
-To learn more about Next.js, take a look at the following resources:
+The following links are intentionally included in project documentation and on
+the web page content:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [https://dev.to/](https://dev.to/)
+- [https://dev.to/azewz/why-your-reaction-speed-matters-and-how-to-measure-it-2ag2?comments_sort=latest#toggle-comments-sort-dropdown](https://dev.to/azewz/why-your-reaction-speed-matters-and-how-to-measure-it-2ag2?comments_sort=latest#toggle-comments-sort-dropdown)
+- [https://telegra.ph](https://telegra.ph)
+- [https://telegra.ph/The-Hidden-Superpower-Why-Reaction-Time-is-the-Ultimate-Performance-Metric-04-21](https://telegra.ph/The-Hidden-Superpower-Why-Reaction-Time-is-the-Ultimate-Performance-Metric-04-21)
+- [https://rentry.co/nncem2ei](https://rentry.co/nncem2ei)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Build and Quality Checks
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+npm run build
+```
